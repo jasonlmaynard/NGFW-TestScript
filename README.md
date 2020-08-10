@@ -1,5 +1,5 @@
 # NGFW-TestScript
-This script is meant to test Firepower using real world threats. The goal is to populate Firepower with events and tune signatures as required - this can be used as a learning tool. NOTE: these are real threats that may compromise your system or systems. 
+This script is meant to test Firepower (but it can test any security device) using real world threats. The goal is to populate Firepower with events and tune signatures as required - this can be used as a learning tool. NOTE: these are real threats that may compromise your system or systems. 
 
 The script performs the following: 
 Pings an upstream device to ensure the firewall is passing ICMP, Performs 4 NMAP scans (XMAS, FIN, NULL and UDP) on an upstream device
